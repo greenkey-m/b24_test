@@ -5,7 +5,7 @@ BX.ready(function () {
 
     console.log('Fuckme');
 
-    BX24.callMethod(
+    BX.callMethod(
         'catalog.product.list',
         { select:{
                 id
