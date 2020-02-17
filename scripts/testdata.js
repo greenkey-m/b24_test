@@ -1,9 +1,9 @@
-import "//api.bitrix24.com/api/v1/"
-
 const x = 'Hello daddy!';
 console.log('hello baby@');
 
 BX24.init(function () {
+
+    console.log('Fuckme');
 
     BX24.callMethod(
         'catalog.product.list',
