@@ -1,7 +1,7 @@
+import "//api.bitrix24.com/api/v1/"
+
 const x = 'Hello daddy!';
 console.log('hello baby@');
-
-import "//api.bitrix24.com/api/v1/"
 
 BX24.init(function () {
 
