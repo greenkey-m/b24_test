@@ -1,7 +1,7 @@
 const x = 'Hello daddy!';
 console.log('hello baby@');
 
-BX24.init(function () {
+BX.ready(function () {
 
     console.log('Fuckme');
 

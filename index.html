@@ -31,13 +31,21 @@
         '</div>' +
         '</div>' +
         '</div>' +
-        '</section>' +
-        '<script>console.log("!!!!!!!!!!!!!!!!!!!!!")<\/script>'
+        '</section>'
     },
     'manifest': {
       'assets': {
-        'css': ['https://greenkey-m.github.io/b24_test/style/block.css'],
-        'js': ['https://greenkey-m.github.io/b24_test/scripts/testdata.js', '//api.bitrix24.com/api/v1/']
+        'css': [
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css',
+            'https://greenkey-m.github.io/b24_test/style/block.css'
+        ],
+        'js': [
+            'https://api.bitrix24.com/api/v1/',
+            'https://greenkey-m.github.io/b24_test/scripts/testdata.js',
+            'https://code.jquery.com/jquery-3.4.1.slim.min.js',
+            'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js',
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+        ]
       },
       'nodes': {
         '.landing-block-node-text': {
